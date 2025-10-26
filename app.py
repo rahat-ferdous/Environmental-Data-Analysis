@@ -222,52 +222,6 @@ print("Risk Scores:", scores)
 
 st.code(flood_code, language='python')
 
-# Skills Section
-st.header("🛠️ My Environmental Data Science Skills")
-
-skills = {
-    'Python Programming': 95,
-    'NumPy Scientific Computing': 90,
-    'Environmental Data Analysis': 88,
-    'Flood Risk Modeling': 85,
-    'Data Visualization': 87,
-    'Statistical Analysis': 92
-}
-
-for skill, level in skills.items():
-    st.write(f"**{skill}**")
-    progress = st.progress(level)
-    st.write(f"{level}% mastery")
-
-# Projects Section
-st.header("💼 Environmental Projects")
-
-projects = [
-    {
-        "name": "Urban Flood Risk Assessment",
-        "description": "Developed flood prediction models for urban areas using historical rainfall and topography data",
-        "technologies": ["Python", "NumPy", "Pandas", "Scikit-learn"],
-        "impact": "Identified high-risk zones, recommended infrastructure improvements"
-    },
-    {
-        "name": "Real-time Flood Monitoring System", 
-        "description": "Built a system to process real-time sensor data and predict flood events 48 hours in advance",
-        "technologies": ["Python", "NumPy", "FastAPI", "PostgreSQL"],
-        "impact": "Reduced flood warning time from 12 to 48 hours"
-    },
-    {
-        "name": "Climate Resilience Analytics",
-        "description": "Analyzed climate data to assess community vulnerability to extreme weather events",
-        "technologies": ["Python", "NumPy", "Pandas", "Matplotlib"],
-        "impact": "Informed municipal climate adaptation planning"
-    }
-]
-
-for i, project in enumerate(projects, 1):
-    st.subheader(f"Project {i}: {project['name']}")
-    st.write(project['description'])
-    st.write("**Technologies:** " + ", ".join(project['technologies']))
-    st.write("**Impact:** " + project['impact'])
 
 st.success("🌊 Flood analysis portfolio updated! Showcasing environmental data science expertise!")
 
