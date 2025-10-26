@@ -223,8 +223,6 @@ print("Risk Scores:", scores)
 st.code(flood_code, language='python')
 
 
-st.success("🌊 Flood analysis portfolio updated! Showcasing environmental data science expertise!")
-
 # Footer
 st.markdown("---")
 st.write("Built with Python, NumPy, and Streamlit for environmental data analysis and flood risk assessment!")
