@@ -4,13 +4,13 @@ import numpy as np
 import itertools  # Add this line
 
 st.set_page_config(
-    page_title="Flood Analysis Portfolio",
+    page_title="Flood Analysis",
     page_icon="🌊", 
     layout="wide"
 )
 
 # Header
-st.title("🌊 Python Developer Portfolio")
+st.title("🌊 Environmental Data Analysis")
 st.markdown("### Specializing in Environmental Data Analysis & Flood Risk Assessment")
 
 # NumPy Demonstration Section
